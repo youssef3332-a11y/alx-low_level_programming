@@ -14,9 +14,10 @@ int main(void)
 	{
 		if (((i % 3) == 0) || ((i % 5) == 0))
 		{
-			s += i;
+			s = s +  i;
 		}
+		i++;
 	}
-	printf("%d\n", s);
+	printf("%d", s);
 	return (0);
 }
