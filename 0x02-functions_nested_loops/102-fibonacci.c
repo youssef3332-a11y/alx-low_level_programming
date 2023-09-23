@@ -2,7 +2,7 @@
 /**
  * main - main
  *
- *Return: 0
+ *Return: void
  */
 void main(void)
 {
