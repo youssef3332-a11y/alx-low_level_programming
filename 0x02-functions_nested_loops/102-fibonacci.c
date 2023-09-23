@@ -2,9 +2,9 @@
 /**
  * main - main
  *
- *Return: void
+ *Return: 0
  */
-void main(void)
+int main(void)
 {
 	int i = 1, u2, u1 = 2, u = 1;
 
@@ -18,5 +18,5 @@ void main(void)
 		i++;
 	}
 	printf("\n");
-	return;
+	return (0);
 }
