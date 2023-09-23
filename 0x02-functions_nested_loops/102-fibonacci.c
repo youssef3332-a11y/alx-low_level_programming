@@ -8,7 +8,7 @@ int main(void)
 {
 	long int i = 1, u2, u1 = 2, u = 1;
 
-	printf("%d, %d", u, u1);
+	printf("%ld, %ld", u, u1);
 	while (i < 49)
 	{
 		u2 = u1 + u;
