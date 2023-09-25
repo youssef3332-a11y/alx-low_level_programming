@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	long int i = 1, u2, u1 = 2, u = 1;
+	unsigned long i = 1, u2, u1 = 2, u = 1;
 
-	printf("%ld, %ld", u, u1);
+	printf("%lu, %lu", u, u1);
 	while (i < 97)
 	{
 		u2 = u1 + u;
-		printf(", %ld", u2);
+		printf(", %lu", u2);
 		u = u1;
 		u1 = u2;
 		i++;
