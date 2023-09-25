@@ -3,7 +3,6 @@
  * _isdigit - is digit
  * @c: c
  * Return: 1
- * Return:0
  */
 int _isdigit(int c)
 {
