@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * _strlen - s
  * @s: s
  * Return: int
