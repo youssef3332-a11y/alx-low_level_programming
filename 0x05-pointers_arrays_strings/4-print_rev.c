@@ -4,12 +4,18 @@
  * @s : c
  * Return: void
  */
-int _strlen(char *s);
 void print_rev(char *s)
 {
-	char *i;
+	char *i, *j;
+	int len = 0;
 
-	i = s + _strlen(s) - 1;
+	j = i;
+	while (*j != '\0')
+	{
+		len++;
+		j++;
+	}
+	i = s + len - 1;
 	while (i >= s)
 	{
 		_putchar(*i--);
