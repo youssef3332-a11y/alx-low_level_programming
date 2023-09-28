@@ -4,6 +4,7 @@
  * @s : c
  * Return: void
  */
+int _strlen(char *s);
 void print_rev(char *s)
 {
 	char *i;
