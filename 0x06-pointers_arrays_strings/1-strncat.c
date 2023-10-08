@@ -6,7 +6,7 @@
  * @n: b
  * Return: char
  */
-*_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0, j = 0, f = 0;
 	int len1 = 0, len2 = 0;
