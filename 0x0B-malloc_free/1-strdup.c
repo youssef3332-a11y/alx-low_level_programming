@@ -6,10 +6,14 @@
  */
 char *_strdup(char *str)
 {
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	int len = strlen(str), i = 0;
 	char *n = malloc(sizeof(char) * (len + 1));
 
-	if (len == 0 || n == NULL)
+	if (n == NULL)
 	{
 		return (NULL);
 	}
