@@ -7,7 +7,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int len1, len2;
+	int len1, len2, i;
 	char *malo;
 
 	if (s1 == NULL)
@@ -25,13 +25,13 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (int i = 0; i < len1; i++)
+	for (i = 0; i < len1; i++)
 	{
 		malo[i] = s1[i];
 	}
-	for (int i = 0; i <= len2; i++)
+	for (j = 0; j <= len2; j++)
 	{
-		malo[i + len1] = s2[i];
+		malo[j + len1] = s2[j];
 	}
 	return (malo);
 }
