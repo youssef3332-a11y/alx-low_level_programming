@@ -1,1 +1,1 @@
-0x0A-argc_argv
+argc and argv in the fonction main

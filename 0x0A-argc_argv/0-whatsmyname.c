@@ -1,12 +1,13 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - main
- * @argc: arg c
- * @argv: arg vector
- * Return: 0
+ * main - m
+ * @argc: c
+ * @argv:v
+ * Return:int
  */
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", *argv);
+	(void)argc;
 	return (0);
 }
