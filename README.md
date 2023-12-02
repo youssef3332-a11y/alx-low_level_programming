@@ -1,1 +1,1 @@
-C programming , git/github, shell.
+C programming
