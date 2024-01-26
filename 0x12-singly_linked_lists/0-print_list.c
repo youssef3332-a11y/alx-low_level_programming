@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
- *print_list - p
+ * print_list - p
  *@h:h
  *Return: count
 */
-long unsigned int print_list(const list_t *h)
+size_t print_list(const list_t *h)
 {
-    long unsigned int count = 0;
+    size_t count = 0;
     const list_t *corrunt = h;
 
     while(corrunt != NULL)
