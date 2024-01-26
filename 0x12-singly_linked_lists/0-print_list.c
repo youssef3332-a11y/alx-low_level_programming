@@ -4,9 +4,9 @@
  *@h:h
  *Return: count
 */
-size_t print_list(const list_t *h)
+long unsigned int print_list(const list_t *h)
 {
-    size_t count = 0;
+    long unsigned int count = 0;
     const list_t *corrunt = h;
 
     while(corrunt != NULL)
@@ -17,10 +17,10 @@ size_t print_list(const list_t *h)
         }
         else
         {
-            printf("[%lu] %s\n", corrunt->len, corrunt->str);
+            printf("[%u] %s\n", corrunt->len, corrunt->str);
         }
         corrunt = corrunt->next;
-        count++;
+        count += 1;
     }
     return (count);
 }
