@@ -9,7 +9,7 @@ size_t print_list(const list_t *h)
     size_t count = 0;
     list_t *corrunt = h;
 
-    while(corrunt)
+    while(corrunt != NULL)
     {
         if (corrunt->str == NULL)
         {
